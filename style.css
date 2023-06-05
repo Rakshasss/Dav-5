@@ -37,9 +37,10 @@
 }
 .foto
 {
-    display: flex;
-    justify-content: center;
-    margin-top: -150px;   
+   
+    text-align: center;
+    margin-top: -150px; 
+      
 }
 .head
 {
@@ -48,4 +49,38 @@
     height: 400px;
     margin: -8px;
     padding: 5px;
+}
+
+#h3
+{
+    color: #171717;
+    margin-right: 750px;
+}
+.photos
+{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-left: 18px;
+}
+.pha
+{
+    max-width: 50%;
+    margin-left: 450px;
+    color: #171717;
+}
+.more-inf
+{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+.more-inf > a
+{
+    all: unset;
+	cursor: pointer;
+	color: white;
+	background-color: blue;
+	border-radius: 30px;
+	padding: 15px 60px;
 }
